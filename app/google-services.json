@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "843771024701",
+    "firebase_url": "https://blucheese-1529972789607.firebaseio.com",
+    "project_id": "blucheese-1529972789607",
+    "storage_bucket": "blucheese-1529972789607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843771024701:android:080087c750909ca4",
+        "android_client_info": {
+          "package_name": "edu.cpp.sabk.blu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843771024701-rbg7d0mgteltgr5qqk5s60hhlvq3rchr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7oFT5ZA7U8KQq9fg2LZSFENqNymWjxFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

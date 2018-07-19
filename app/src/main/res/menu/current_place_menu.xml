@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/option_get_place"
+            android:title="Get Directions"/>
+        <item
+            android:id="@+id/option_check_notes_place"
+            android:title="Check Notes on Place"/>
+</menu>

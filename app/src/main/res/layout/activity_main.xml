@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonBack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/darkBlue"
+                android:src="@drawable/back"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_weight="0.2"
+                android:scaleType="fitCenter"
+                android:onClick="onClickBack"/>
+
+            <TextView
+                android:id="@+id/placeTitleMain"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:background="@color/darkBlue"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="Place"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:visibility="visible"
+                tools:text="Place" />
+
+            <ImageButton
+                android:id="@+id/imageButtonMenu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/darkBlue"
+                android:src="@drawable/menu"
+                android:gravity="right"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_weight="0.2"
+                android:scaleType="fitCenter"
+                android:onClick="onClickMenu"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.45"
+            android:background="@color/lightBlue"
+            android:gravity="top|left"
+            android:inputType="text|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:hint="Add information here"
+            android:textSize="14sp" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:background="@color/ultraLightBlue" >
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
